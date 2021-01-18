@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kHGDtEm6nIY8upascdn/woJVtWuvHTd7o6oRtiRDInEAIe7yDbWhBpEKzVfCRxgkemSapn5ehy99CwNnVfUwDA==",
+  "dgSpecHash": "lUI2SulEISYs0asgQzHh8pCR8PCo6wjMuSKkpGBZ87mbXOlHTdx7I1WkTLl20VWkRJVuP18m6CNeYdw8K+AxLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nathaniel.kwok\\source\\repos\\Currency-Converter\\Currency-Converter\\Currency-Converter.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Patrick\\source\\repos\\Patrick-Brennan\\Project-Visual-Basic-.NET-and-C\\Currency-Converter\\Currency-Converter\\Currency-Converter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Patrick\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Patrick\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

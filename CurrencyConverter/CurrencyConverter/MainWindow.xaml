@@ -1,0 +1,57 @@
+﻿<Window x:Class="CurrencyConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CurrencyConverter"
+        mc:Ignorable="d"
+        Title="Currency Converter" Height="290" Width="525" WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="0,0,0,0">
+        <Label Height="26" HorizontalAlignment="Left" Margin="15,25,0,0" 
+               Name="label1" Content="From Currency:" VerticalAlignment="Top" Width="100" 
+               Grid.ColumnSpan="2"/>
+
+        <Label Height="26" HorizontalAlignment="Left" Margin="15,60,0,0" 
+               Name="label2" Content="To Currency:" VerticalAlignment="Top" Width="100" 
+               Grid.ColumnSpan="2"/>
+
+        <Label Height="26" HorizontalAlignment="Left" Margin="15,117,0,0" 
+               Name="label3" Content="Enter Amount:" VerticalAlignment="Top" Width="100"/>
+
+        <ComboBox Height="26" Width="335" Margin="150,25,0,0" Name="comboFromCurrency" 
+                  VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1" Grid.ColumnSpan="3">
+
+            <ComboBoxItem Name="comboFromUSD" Content="US Dollars (USD)" IsSelected="True"/>
+            <ComboBoxItem Name="comboFromCAD" Content="Canadian Dollars (CAD)"/>
+            <ComboBoxItem Name="comboFromEUR" Content="Euros (EUR)"/>
+            <ComboBoxItem Name="comboFromINR" Content="Indian Rupees (INR)"/>
+            <ComboBoxItem Name="comboFromGBP" Content="British Pounds (GBP)"/>
+            <ComboBoxItem Name="comboFromJPY" Content="Japanese Yen (JPY)"/>
+        </ComboBox>
+
+        <ComboBox Height="26" Width="335" Margin="150,62,0,0" Name="comboToCurrency" 
+                  VerticalAlignment="Top" HorizontalAlignment="Left">
+
+            <ComboBoxItem Name="comboToUSD" Content="US Dollars (USD)"/>
+            <ComboBoxItem Name="comboToCAD" Content="Canadian Dollars (CAD)"  IsSelected="True"/>
+            <ComboBoxItem Name="comboToEUR" Content="Euros (EUR)"/>
+            <ComboBoxItem Name="comboToINR" Content="Indian Rupees (INR)"/>
+            <ComboBoxItem Name="comboToGBP" Content="British Pounds (GBP)"/>
+            <ComboBoxItem Name="comboToJPY" Content="Japanese Yen (JPY)"/>
+        </ComboBox>
+
+        <Button Margin="385,115,0,0" 
+                Name="btnConvert" Content="Convert" 
+                Height="30" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnConvert_Click"/>
+
+        <TextBox Margin="150,115,0,0" Name="txtAmount" Height="30" Width="200"
+                 HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <Border Width="470" Height="60" Margin="-18.4,140,0,0" BorderThickness="1" BorderBrush="Black"/>
+
+        <Label Name="lbResult" HorizontalAlignment="Left" Margin="15,170,0,0" VerticalAlignment="Top" Height="30" Width="470"/>
+        <Label Name="lbDate" HorizontalAlignment="Left" Margin="15,200,0,0" VerticalAlignment="Top" Height="30" Width="470"/>
+
+    </Grid>
+</Window>

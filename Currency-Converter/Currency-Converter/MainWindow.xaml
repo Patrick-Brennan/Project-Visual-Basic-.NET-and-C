@@ -5,45 +5,47 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Currency_Converter"
         mc:Ignorable="d"
-        Title="Currency Converter" Height="260" Width="497">
+        Title="Currency Converter" Height="260" Width="500" WindowStartupLocation="CenterScreen">
 
+    <Grid Margin="0,0,0,0">
+        <Label Height="26" HorizontalAlignment="Left" Margin="15,25,0,0" 
+               Name="label1" Content="From Currency:" VerticalAlignment="Top" Width="99" 
+               Grid.ColumnSpan="2"/>
 
-    <Grid>
-        <Label Height="25.96" HorizontalAlignment="Left" Margin="14.0066666666667,25.04,0,0" 
+        <Label Height="26" HorizontalAlignment="Left" Margin="15,60,0,0" 
+               Name="label2" Content="To Currency:" VerticalAlignment="Top" Width="84" 
+               Grid.ColumnSpan="2"/>
 
-    Name="label1" VerticalAlignment="Top" Width="98.9933333333333" 
+        <Label Height="26" HorizontalAlignment="Left" Margin="15,117,0,0" 
+               Name="label3" Content="Enter Amount:" VerticalAlignment="Top" Width="84"/>
 
-    Grid.ColumnSpan="2">From Currency:</Label>
-        <Label Height="25.96" HorizontalAlignment="Left" Margin="15.0066666666667,60.04,0,0" 
+        <ComboBox Height="26" Width="335" Margin="150,25,0,0" Name="cmbFromCurrency" 
+                  VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1" Grid.ColumnSpan="3">
 
-    Name="label2" VerticalAlignment="Top" Width="83.9933333333333" 
-
-    Grid.ColumnSpan="2">To Currency:</Label>
-        <ComboBox Height="26" Margin="150,25,23,0" Name="cmbFromCurrency" 
-                    VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="3">
-
-            <ComboBoxItem>$ USD</ComboBoxItem>
-            <ComboBoxItem>$ CAD</ComboBoxItem>
-            <ComboBoxItem>Euros</ComboBoxItem>
-            <ComboBoxItem>Rupees</ComboBoxItem>
+            <ComboBoxItem Name="cmbFromUSD" Content="$ USD"/>
+            <ComboBoxItem Name="cmbFromCAD" Content="$ CAD"/>
+            <ComboBoxItem Name="cmbFromEuros" Content="Euros"/>
+            <ComboBoxItem Name="cmbFromRupees" Content="Rupees"/>
         </ComboBox>
 
+        <ComboBox Height="26" Width="335" Margin="150,62,0,0" Name="cmbToCurrency" 
+                  VerticalAlignment="Top" HorizontalAlignment="Left">
 
-        <ComboBox Height="26" Margin="150,62,24,0" Name="cmbToCurrency" 
-                VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="3">
-
-            <ComboBoxItem>$ USD</ComboBoxItem>
-            <ComboBoxItem>$ CAD</ComboBoxItem>
-            <ComboBoxItem>Euros</ComboBoxItem>
-            <ComboBoxItem>Rupees</ComboBoxItem>
+            <ComboBoxItem Name="cmbToUSD" Content="$ USD"/>
+            <ComboBoxItem Name="cmbToCAD" Content="$ CAD"/>
+            <ComboBoxItem Name="cmbToEuros" Content="Euros"/>
+            <ComboBoxItem Name="cmbToRupees" Content="Rupees"/>
         </ComboBox>
 
-        <Button Margin="350,0,25,100" 
-                Name="btnConvert" Grid.Column="3" 
-                Height="28.7397769516729" VerticalAlignment="Bottom">Convert</Button>
+        <Button Margin="385,115,0,0" 
+                Name="btnConvert" Content="Convert" 
+                Height="30" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnConvert_Click"/>
 
-        <TextBox Margin="22,0,17,25.3940520446097" Name="txtResults" Grid.ColumnSpan="4" 
-                Height="59.4758364312266" Grid.RowSpan="3" VerticalAlignment="Bottom"></TextBox>
+        <TextBox Margin="150,115,0,0" Name="txtAmount" Height="30" Width="200"
+                 HorizontalAlignment="Left" VerticalAlignment="Top" TextChanged="txtAmount_TextChanged"/>
+
+        <TextBox Margin="15,170,0,0" Name="txtResults" Grid.ColumnSpan="4" 
+                Height="60" Width="470" Grid.RowSpan="3" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

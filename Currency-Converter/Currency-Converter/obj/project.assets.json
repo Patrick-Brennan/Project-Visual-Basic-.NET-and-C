@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\nathaniel.kwok\\.nuget\\packages\\": {}
+    "C:\\Users\\Patrick\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nathaniel.kwok\\source\\repos\\Currency-Converter\\Currency-Converter\\Currency-Converter.csproj",
+      "projectUniqueName": "C:\\Users\\Patrick\\Source\\Repos\\Patrick-Brennan\\Project-Visual-Basic-.NET-and-C\\Currency-Converter\\Currency-Converter\\Currency-Converter.csproj",
       "projectName": "Currency-Converter",
-      "projectPath": "C:\\Users\\nathaniel.kwok\\source\\repos\\Currency-Converter\\Currency-Converter\\Currency-Converter.csproj",
-      "packagesPath": "C:\\Users\\nathaniel.kwok\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nathaniel.kwok\\source\\repos\\Currency-Converter\\Currency-Converter\\obj\\",
+      "projectPath": "C:\\Users\\Patrick\\Source\\Repos\\Patrick-Brennan\\Project-Visual-Basic-.NET-and-C\\Currency-Converter\\Currency-Converter\\Currency-Converter.csproj",
+      "packagesPath": "C:\\Users\\Patrick\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Patrick\\Source\\Repos\\Patrick-Brennan\\Project-Visual-Basic-.NET-and-C\\Currency-Converter\\Currency-Converter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nathaniel.kwok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Patrick\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -55,6 +55,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.10, 3.1.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
