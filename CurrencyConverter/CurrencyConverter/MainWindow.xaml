@@ -9,15 +9,15 @@
 
     <Grid Margin="0,0,0,0">
         <Label Height="26" HorizontalAlignment="Left" Margin="15,25,0,0" 
-               Name="label1" Content="From Currency:" VerticalAlignment="Top" Width="99" 
+               Name="label1" Content="From Currency:" VerticalAlignment="Top" Width="100" 
                Grid.ColumnSpan="2"/>
 
         <Label Height="26" HorizontalAlignment="Left" Margin="15,60,0,0" 
-               Name="label2" Content="To Currency:" VerticalAlignment="Top" Width="84" 
+               Name="label2" Content="To Currency:" VerticalAlignment="Top" Width="100" 
                Grid.ColumnSpan="2"/>
 
         <Label Height="26" HorizontalAlignment="Left" Margin="15,117,0,0" 
-               Name="label3" Content="Enter Amount:" VerticalAlignment="Top" Width="84"/>
+               Name="label3" Content="Enter Amount:" VerticalAlignment="Top" Width="100"/>
 
         <ComboBox Height="26" Width="335" Margin="150,25,0,0" Name="comboFromCurrency" 
                   VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1" Grid.ColumnSpan="3">
