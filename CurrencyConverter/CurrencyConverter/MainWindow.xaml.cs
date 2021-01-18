@@ -27,23 +27,226 @@ namespace CurrencyConverter
 
         private void btnConvert_Click(object sender, RoutedEventArgs e)
         {
-            // Button to convert currency.
-            CurrencyConvert();
-        }
-
-        private void txtAmount_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            // Enter currency amount to be converted.
-            CurrencyConvert();
-        }
-
-        private void CurrencyConvert()
-        {
             double currency;
             if (!double.TryParse(txtAmount.Text, out currency))
             {
                 return;
             }
+
+            string FromCurrency = comboFromCurrency.Text;
+            string ToCurrency = comboToCurrency.Text;
+
+            // From USD.
+            if (comboFromUSD.IsSelected == true)
+            {
+                if (comboToUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency, ToCurrency);
+                }
+                if (comboToCAD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1.27269, ToCurrency);
+                }
+                if (comboToEUR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}€ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.82752, ToCurrency);
+                }
+                if (comboToINR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}₹ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 73.1120, ToCurrency);
+                }
+                if (comboToGBP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}£ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.73551, ToCurrency);
+                }
+                if (comboToJPY.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}¥ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 103.86, ToCurrency);
+                }
+            }
+
+            // From CAD
+            if (comboFromCAD.IsSelected == true)
+            {
+                if (comboToUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.78514, ToCurrency);
+                }
+                if (comboToCAD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency, ToCurrency);
+                }
+                if (comboToEUR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}€ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.64972, ToCurrency);
+                }
+                if (comboToINR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}₹ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 57.4029, ToCurrency);
+                }
+                if (comboToGBP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}£ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.57747, ToCurrency);
+                }
+                if (comboToJPY.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}¥ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 81.54, ToCurrency);
+                }
+            }
+
+            // From EUR
+            if (comboFromEUR.IsSelected == true)
+            {
+                if (comboToUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1.20748, ToCurrency);
+                }
+                if (comboToCAD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1.53675, ToCurrency);
+                }
+                if (comboToEUR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}€ in {3}",
+                        txtAmount.Text, FromCurrency, currency, ToCurrency);
+                }
+                if (comboToINR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}₹ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 88.2813, ToCurrency);
+                }
+                if (comboToGBP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}£ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.88812, ToCurrency);
+                }
+                if (comboToJPY.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}¥ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 125.37, ToCurrency);
+                }
+            }
+
+            // From INR
+            if (comboFromINR.IsSelected == true)
+            {
+                if (comboToUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.01363, ToCurrency);
+                }
+                if (comboToCAD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.01735, ToCurrency);
+                }
+                if (comboToEUR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}€ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.01128, ToCurrency);
+                }
+                if (comboToINR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}₹ in {3}",
+                        txtAmount.Text, FromCurrency, currency, ToCurrency);
+                }
+                if (comboToGBP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}£ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.01003, ToCurrency);
+                }
+                if (comboToJPY.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}¥ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1.42, ToCurrency);
+                }
+            }
+
+            // From GBP
+            if (comboFromGBP.IsSelected == true)
+            {
+                if (comboToUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1.35818, ToCurrency);
+                }
+                if (comboToCAD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1.72854, ToCurrency);
+                }
+                if (comboToEUR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}€ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1.12418, ToCurrency);
+                }
+                if (comboToINR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}₹ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 99.2990, ToCurrency);
+                }
+                if (comboToGBP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}£ in {3}",
+                        txtAmount.Text, FromCurrency, currency, ToCurrency);
+                }
+                if (comboToJPY.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}¥ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 141.08, ToCurrency);
+                }
+            }
+
+            // From JPY
+            if (comboFromJPY.IsSelected == true)
+            {
+                if (comboToUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.00963, ToCurrency);
+                }
+                if (comboToCAD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.01225, ToCurrency);
+                }
+                if (comboToEUR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}€ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.00797, ToCurrency);
+                }
+                if (comboToINR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}₹ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.70376, ToCurrency);
+                }
+                if (comboToGBP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}£ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.00708, ToCurrency);
+                }
+                if (comboToJPY.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}¥ in {3}",
+                        txtAmount.Text, FromCurrency, currency, ToCurrency);
+                }
+            }
+
+            lbDate.Content = string.Format("{0}", DateTime.Now);
         }
     }
 }
