@@ -28,6 +28,12 @@
             <ComboBoxItem Name="comboFromINR" Content="Indian Rupees (INR)"/>
             <ComboBoxItem Name="comboFromGBP" Content="British Pounds (GBP)"/>
             <ComboBoxItem Name="comboFromJPY" Content="Japanese Yen (JPY)"/>
+            <ComboBoxItem Name="comboFromCHF" Content="Swiss Francs (CHF)"/>
+            <ComboBoxItem Name="comboFromCUP" Content="Cuban Pesos (CUP)"/>
+            <ComboBoxItem Name="comboFromBTCUSD" Content="Bitcoin (₿)"/>
+            <ComboBoxItem Name="comboFromETHUSD" Content="Ethereum (Ξ)"/>
+
+
         </ComboBox>
 
         <ComboBox Height="26" Width="335" Margin="150,62,0,0" Name="comboToCurrency" 
@@ -39,6 +45,10 @@
             <ComboBoxItem Name="comboToINR" Content="Indian Rupees (INR)"/>
             <ComboBoxItem Name="comboToGBP" Content="British Pounds (GBP)"/>
             <ComboBoxItem Name="comboToJPY" Content="Japanese Yen (JPY)"/>
+            <ComboBoxItem Name="comboToCHF" Content="Swiss Francs (CHF)"/>
+            <ComboBoxItem Name="comboToCUP" Content="Cuban Pesos (CUP)"/>
+            <ComboBoxItem Name="combotoBTCUSD" Content="Bitcoin (₿)"/>
+            <ComboBoxItem Name="comboToETHUSD" Content="Ethereum (Ξ)"/>
         </ComboBox>
 
         <Button Margin="385,115,0,0" 

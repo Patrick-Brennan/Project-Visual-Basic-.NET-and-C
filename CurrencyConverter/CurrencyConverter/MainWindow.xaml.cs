@@ -70,6 +70,30 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}¥ in {3}",
                         txtAmount.Text, FromCurrency, currency * 103.86, ToCurrency);
                 }
+
+
+                if (comboToCHF.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}CHF in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.89, ToCurrency);
+                }
+                if (comboToCUP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}₱ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 24.00, ToCurrency);
+                }
+                if (combotoBTCUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}₿ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.000027, ToCurrency);
+                }
+                if (comboToETHUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}Ξ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.00079, ToCurrency);
+                }
+
+
             }
 
             // From CAD
@@ -104,6 +128,27 @@ namespace CurrencyConverter
                 {
                     lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}¥ in {3}",
                         txtAmount.Text, FromCurrency, currency * 81.54, ToCurrency);
+                }
+
+                if (comboToCHF.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}CHF in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.7, ToCurrency);
+                }
+                if (comboToCUP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}₱ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 18.85, ToCurrency);
+                }
+                if (combotoBTCUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}₿ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.000021, ToCurrency);
+                }
+                if (comboToETHUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}Ξ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.00062, ToCurrency);
                 }
             }
 
@@ -140,6 +185,27 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}¥ in {3}",
                         txtAmount.Text, FromCurrency, currency * 125.37, ToCurrency);
                 }
+
+                if (comboToCHF.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}CHF in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1.08, ToCurrency);
+                }
+                if (comboToCUP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}₱ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 29.01, ToCurrency);
+                }
+                if (combotoBTCUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}₿ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.000033, ToCurrency);
+                }
+                if (comboToETHUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}Ξ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.00096, ToCurrency);
+                }
             }
 
             // From INR
@@ -174,6 +240,27 @@ namespace CurrencyConverter
                 {
                     lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}¥ in {3}",
                         txtAmount.Text, FromCurrency, currency * 1.42, ToCurrency);
+                }
+
+                if (comboToCHF.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}CHF in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.012, ToCurrency);
+                }
+                if (comboToCUP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}₱ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.33, ToCurrency);
+                }
+                if (combotoBTCUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}₿ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.0000011, ToCurrency);
+                }
+                if (comboToETHUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}Ξ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.000011, ToCurrency);
                 }
             }
 
@@ -210,6 +297,27 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}¥ in {3}",
                         txtAmount.Text, FromCurrency, currency * 141.08, ToCurrency);
                 }
+
+                if (comboToCHF.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}CHF in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1.21, ToCurrency);
+                }
+                if (comboToCUP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}₱ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 32.63, ToCurrency);
+                }
+                if (combotoBTCUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}₿ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.000037, ToCurrency);
+                }
+                if (comboToETHUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}Ξ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.0011, ToCurrency);
+                }
             }
 
             // From JPY
@@ -243,6 +351,252 @@ namespace CurrencyConverter
                 if (comboToJPY.IsSelected == true)
                 {
                     lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}¥ in {3}",
+                        txtAmount.Text, FromCurrency, currency, ToCurrency);
+                }
+
+                if (comboToCHF.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}CHF in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.0086, ToCurrency);
+                }
+                if (comboToCUP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}₱ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.23, ToCurrency);
+                }
+                if (combotoBTCUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}₿ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.0000010, ToCurrency);
+                }
+                if (comboToETHUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}Ξ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.0000076, ToCurrency);
+                }
+            }
+
+
+            //CHF
+            if (comboFromCHF.IsSelected == true)
+            {
+                if (comboToUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1.12, ToCurrency);
+                }
+                if (comboToCAD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1.43, ToCurrency);
+                }
+                if (comboToEUR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}€ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.93, ToCurrency);
+                }
+                if (comboToINR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}₹ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 82.16, ToCurrency);
+                }
+                if (comboToGBP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}£ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.83, ToCurrency);
+                }
+                if (comboToJPY.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}¥ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 116.50, ToCurrency);
+                }
+
+                if (comboToCHF.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}CHF in {3}",
+                        txtAmount.Text, FromCurrency, currency, ToCurrency);
+                }
+                if (comboToCUP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}₱ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 26.95, ToCurrency);
+                }
+                if (combotoBTCUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}₿ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.000031, ToCurrency);
+                }
+                if (comboToETHUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}Ξ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.00088, ToCurrency);
+                }
+            }
+
+            //CUP
+            if (comboFromCUP.IsSelected == true)
+            {
+                if (comboToUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.042, ToCurrency);
+                }
+                if (comboToCAD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.053, ToCurrency);
+                }
+                if (comboToEUR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}€ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.034, ToCurrency);
+                }
+                if (comboToINR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}₹ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 3.05, ToCurrency);
+                }
+                if (comboToGBP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}£ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.031, ToCurrency);
+                }
+                if (comboToJPY.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}¥ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 4.32, ToCurrency);
+                }
+
+                if (comboToCHF.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}CHF in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.037, ToCurrency);
+                }
+                if (comboToCUP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}₱ in {3}",
+                        txtAmount.Text, FromCurrency, currency, ToCurrency);
+                }
+                if (combotoBTCUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}₿ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.0000011, ToCurrency);
+                }
+                if (comboToETHUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}Ξ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.000032, ToCurrency);
+                }
+            }
+
+            //BTC-USD
+            if (comboFromBTCUSD.IsSelected == true)
+            {
+                if (comboToUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 36815.70, ToCurrency);
+                }
+                if (comboToCAD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 46867.67, ToCurrency);
+                }
+                if (comboToEUR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}€ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 30443.82, ToCurrency);
+                }
+                if (comboToINR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}₹ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 2694725.16, ToCurrency);
+                }
+                if (comboToGBP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}£ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 27224.34, ToCurrency);
+                }
+                if (comboToJPY.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}¥ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 3844752.60, ToCurrency);
+                }
+
+                if (comboToCHF.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}CHF in {3}",
+                        txtAmount.Text, FromCurrency, currency * 32998.92, ToCurrency);
+                }
+                if (comboToCUP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}₱ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 889318.56, ToCurrency);
+                }
+                if (combotoBTCUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}₿ in {3}",
+                        txtAmount.Text, FromCurrency, currency, ToCurrency);
+                }
+                if (comboToETHUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}Ξ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 28.37, ToCurrency);
+                }
+            }
+
+            //ETH
+            if (comboFromETHUSD.IsSelected == true)
+            {
+                if (comboToUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1402.83, ToCurrency);
+                }
+                if (comboToCAD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}$ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1788.88, ToCurrency);
+                }
+                if (comboToEUR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}€ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1157.69, ToCurrency);
+                }
+                if (comboToINR.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}₹ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 102752.54, ToCurrency);
+                }
+                if (comboToGBP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}£ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1031.20, ToCurrency);
+                }
+                if (comboToJPY.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}¥ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 146014.59, ToCurrency);
+                }
+
+                if (comboToCHF.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}CHF in {3}",
+                        txtAmount.Text, FromCurrency, currency * 1246.96, ToCurrency);
+                }
+                if (comboToCUP.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}₱ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 33709.68, ToCurrency);
+                }
+                if (combotoBTCUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}₿ in {3}",
+                        txtAmount.Text, FromCurrency, currency * 0.038, ToCurrency);
+                }
+                if (comboToETHUSD.IsSelected == true)
+                {
+                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}Ξ in {3}",
                         txtAmount.Text, FromCurrency, currency, ToCurrency);
                 }
             }
