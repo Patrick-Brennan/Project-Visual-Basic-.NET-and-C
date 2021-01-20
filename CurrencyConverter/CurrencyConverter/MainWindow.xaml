@@ -28,56 +28,56 @@
                     <TextBlock Text="US Dollars (USD)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
-            <ComboBoxItem Name="comboFromCAD" IsSelected="True">
+            <ComboBoxItem Name="comboFromCAD">
                 <WrapPanel>
                     <Image Width="35" Source="/images/CAD_Flag.png"/>
                     <TextBlock Text="Canadian Dollars (CAD)" Margin="6,0,0,0"/>
                 </WrapPanel>
                 </ComboBoxItem>
-            <ComboBoxItem Name="comboFromEUR" IsSelected="True">
+            <ComboBoxItem Name="comboFromEUR">
                 <WrapPanel>
                     <Image Width="35" Source="/images/Eu-Flag.jpg"/>
                     <TextBlock Text="Euros (EUR)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
-            <ComboBoxItem Name="comboFromINR" IsSelected="True">
+            <ComboBoxItem Name="comboFromINR">
                 <WrapPanel>
                     <Image Width="35" Source="/images/INR_Flag.jpg"/>
                     <TextBlock Text="Indian Rupees (INR)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
-            <ComboBoxItem Name="comboFromGBP" IsSelected="True">
+            <ComboBoxItem Name="comboFromGBP">
                 <WrapPanel>
                     <Image Width="35" Source="/images/GBR_Flag.jpg"/>
                     <TextBlock Text="British Pounds (GBP)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
-            <ComboBoxItem Name="comboFromJPY" IsSelected="True">
+            <ComboBoxItem Name="comboFromJPY">
                 <WrapPanel>
                     <Image Width="35" Source="/images/JPY_Flag.png"/>
                     <TextBlock Text="Japanese Yen (JPY)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
-            <ComboBoxItem Name="comboFromCHF" IsSelected="True">
+            <ComboBoxItem Name="comboFromCHF">
                 <WrapPanel>
                     <Image Width="35" Source="/images/CHF_Flag.jpg"/>
                     <TextBlock Text="Swiss Francs (CHF)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
-            <ComboBoxItem Name="comboFromCUP" IsSelected="True">
+            <ComboBoxItem Name="comboFromCUP">
                 <WrapPanel>
                     <Image Width="35" Source="/images/CUP_Flag.png"/>
                     <TextBlock Text="Cuban Pesos (CUP)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
 
-            <ComboBoxItem Name="comboFromBTCUSD" IsSelected="True">
+            <ComboBoxItem Name="comboFromBTCUSD">
                 <WrapPanel>
                     <Image Width="35" Height="20" Source="/images/Bitcoin.jpg"/>
                     <TextBlock Text="Bitcoin (₿)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
-            <ComboBoxItem Name="comboFromETHUSD" IsSelected="True">
+            <ComboBoxItem Name="comboFromETHUSD">
                 <WrapPanel>
                     <Image Width="35" Height="20" Source="/images/Eth.png"/>
                     <TextBlock Text="Ethereum (Ξ)" Margin="6,0,0,0" />
@@ -103,50 +103,50 @@
                     <TextBlock Text="Canadian Dollars (CAD)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
-            <ComboBoxItem Name="comboToEUR" IsSelected="True">
+            <ComboBoxItem Name="comboToEUR">
                 <WrapPanel>
                     <Image Width="35" Source="/images/Eu-Flag.jpg"/>
                     <TextBlock Text="Euros (EUR)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
-            <ComboBoxItem Name="comboToINR" IsSelected="True">
+            <ComboBoxItem Name="comboToINR">
                 <WrapPanel>
                     <Image Width="35" Source="/images/INR_Flag.jpg"/>
                     <TextBlock Text="Indian Rupees (INR)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
-            <ComboBoxItem Name="comboToGBP" IsSelected="True">
+            <ComboBoxItem Name="comboToGBP">
                 <WrapPanel>
                     <Image Width="35" Source="/images/GBR_Flag.jpg"/>
                     <TextBlock Text="British Pounds (GBP)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
-            <ComboBoxItem Name="comboToJPY" IsSelected="True">
+            <ComboBoxItem Name="comboToJPY">
                 <WrapPanel>
                     <Image Width="35" Source="/images/JPY_Flag.png"/>
                     <TextBlock Text="Japanese Yen (JPY)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
-            <ComboBoxItem Name="comboToCHF" IsSelected="True">
+            <ComboBoxItem Name="comboToCHF">
                 <WrapPanel>
                     <Image Width="35" Source="/images/CHF_Flag.jpg"/>
                     <TextBlock Text="Swiss Francs (CHF)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
-            <ComboBoxItem Name="comboToCUP" IsSelected="True">
+            <ComboBoxItem Name="comboToCUP">
                 <WrapPanel>
                     <Image Width="35" Source="/images/CUP_Flag.png"/>
                     <TextBlock Text="Cuban Pesos (CUP)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
 
-            <ComboBoxItem Name="comboToBTCUSD" IsSelected="True">
+            <ComboBoxItem Name="comboToBTCUSD">
                 <WrapPanel>
                     <Image Width="35" Height="20" Source="/images/Bitcoin.jpg"/>
                     <TextBlock Text="Bitcoin (₿)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
-            <ComboBoxItem Name="comboToETHUSD" IsSelected="True">
+            <ComboBoxItem Name="comboToETHUSD">
                 <WrapPanel>
                     <Image Width="35" Height="20" Source="/images/Eth.png"/>
                     <TextBlock Text="Ethereum (Ξ)" Margin="6,0,0,0" />
