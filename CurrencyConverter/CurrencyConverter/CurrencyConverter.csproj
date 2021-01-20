@@ -99,9 +99,35 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="images\CAD_Flag.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="images\US_Flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Eu-Flag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\INR_Flag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\GBR_Flag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\JPY_Flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\CHF_Flag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\CUP_Flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Bitcoin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\ETH.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
