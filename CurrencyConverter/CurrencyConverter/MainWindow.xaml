@@ -20,7 +20,7 @@
                Name="label3" Content="Enter Amount:" VerticalAlignment="Top" Width="100"/>
 
         <ComboBox Height="26" Width="335" Margin="150,25,0,0" Name="comboFromCurrency" 
-                  VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1" Grid.ColumnSpan="3">
+                  VerticalAlignment="Top" HorizontalAlignment="Left">
 
             <ComboBoxItem Name="comboFromUSD" IsSelected="True">
                 <WrapPanel>
