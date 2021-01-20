@@ -82,7 +82,7 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}₱ in {3}",
                         txtAmount.Text, FromCurrency, currency * 24.00, ToCurrency);
                 }
-                if (combotoBTCUSD.IsSelected == true)
+                if (comboToBTCUSD.IsSelected == true)
                 {
                     lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}₿ in {3}",
                         txtAmount.Text, FromCurrency, currency * 0.000027, ToCurrency);
@@ -140,7 +140,7 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}₱ in {3}",
                         txtAmount.Text, FromCurrency, currency * 18.85, ToCurrency);
                 }
-                if (combotoBTCUSD.IsSelected == true)
+                if (comboToBTCUSD.IsSelected == true)
                 {
                     lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}₿ in {3}",
                         txtAmount.Text, FromCurrency, currency * 0.000021, ToCurrency);
@@ -196,7 +196,7 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}₱ in {3}",
                         txtAmount.Text, FromCurrency, currency * 29.01, ToCurrency);
                 }
-                if (combotoBTCUSD.IsSelected == true)
+                if (comboToBTCUSD.IsSelected == true)
                 {
                     lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}₿ in {3}",
                         txtAmount.Text, FromCurrency, currency * 0.000033, ToCurrency);
@@ -252,7 +252,7 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}₱ in {3}",
                         txtAmount.Text, FromCurrency, currency * 0.33, ToCurrency);
                 }
-                if (combotoBTCUSD.IsSelected == true)
+                if (comboToBTCUSD.IsSelected == true)
                 {
                     lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}₿ in {3}",
                         txtAmount.Text, FromCurrency, currency * 0.0000011, ToCurrency);
@@ -308,7 +308,7 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}₱ in {3}",
                         txtAmount.Text, FromCurrency, currency * 32.63, ToCurrency);
                 }
-                if (combotoBTCUSD.IsSelected == true)
+                if (comboToBTCUSD.IsSelected == true)
                 {
                     lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}₿ in {3}",
                         txtAmount.Text, FromCurrency, currency * 0.000037, ToCurrency);
@@ -364,7 +364,7 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}₱ in {3}",
                         txtAmount.Text, FromCurrency, currency * 0.23, ToCurrency);
                 }
-                if (combotoBTCUSD.IsSelected == true)
+                if (comboToBTCUSD.IsSelected == true)
                 {
                     lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}₿ in {3}",
                         txtAmount.Text, FromCurrency, currency * 0.0000010, ToCurrency);
@@ -421,7 +421,7 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}₱ in {3}",
                         txtAmount.Text, FromCurrency, currency * 26.95, ToCurrency);
                 }
-                if (combotoBTCUSD.IsSelected == true)
+                if (comboToBTCUSD.IsSelected == true)
                 {
                     lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}₿ in {3}",
                         txtAmount.Text, FromCurrency, currency * 0.000031, ToCurrency);
@@ -477,7 +477,7 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}₱ in {3}",
                         txtAmount.Text, FromCurrency, currency, ToCurrency);
                 }
-                if (combotoBTCUSD.IsSelected == true)
+                if (comboToBTCUSD.IsSelected == true)
                 {
                     lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}₿ in {3}",
                         txtAmount.Text, FromCurrency, currency * 0.0000011, ToCurrency);
@@ -533,7 +533,7 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}₱ in {3}",
                         txtAmount.Text, FromCurrency, currency * 889318.56, ToCurrency);
                 }
-                if (combotoBTCUSD.IsSelected == true)
+                if (comboToBTCUSD.IsSelected == true)
                 {
                     lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}₿ in {3}",
                         txtAmount.Text, FromCurrency, currency, ToCurrency);
@@ -589,7 +589,7 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}₱ in {3}",
                         txtAmount.Text, FromCurrency, currency * 33709.68, ToCurrency);
                 }
-                if (combotoBTCUSD.IsSelected == true)
+                if (comboToBTCUSD.IsSelected == true)
                 {
                     lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}₿ in {3}",
                         txtAmount.Text, FromCurrency, currency * 0.038, ToCurrency);
