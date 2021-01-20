@@ -5,19 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CurrencyConverter"
         mc:Ignorable="d"
-        Title="Currency Converter" Height="290" Width="525" WindowStartupLocation="CenterScreen">
+        Title="Currency Converter" Height="310" Width="515" WindowStartupLocation="CenterScreen">
 
     <Grid Margin="0,0,0,0">
         <Label Height="26" HorizontalAlignment="Left" Margin="15,25,0,0" 
                Name="label1" Content="From Currency:" VerticalAlignment="Top" Width="100" 
                Grid.ColumnSpan="2"/>
 
-        <Label Height="26" HorizontalAlignment="Left" Margin="15,60,0,0" 
+        <Label Height="26" HorizontalAlignment="Left" Margin="15,65,0,0" 
                Name="label2" Content="To Currency:" VerticalAlignment="Top" Width="100" 
                Grid.ColumnSpan="2"/>
 
-        <Label Height="26" HorizontalAlignment="Left" Margin="15,117,0,0" 
-               Name="label3" Content="Enter Amount:" VerticalAlignment="Top" Width="100"/>
+        <Label Height="26" HorizontalAlignment="Left" Margin="15,105,0,0" 
+               Name="label3" Content="Interbank:" VerticalAlignment="Top" Width="100"/>
+        
+        <Label Height="26" HorizontalAlignment="Left" Margin="15,160,0,0" 
+               Name="label4" Content="Enter Amount:" VerticalAlignment="Top" Width="100"/>
 
         <ComboBox Height="26" Width="335" Margin="150,25,0,0" Name="comboFromCurrency" 
                   VerticalAlignment="Top" HorizontalAlignment="Left">
@@ -35,7 +38,7 @@
             <ComboBoxItem Name="comboFromJPY" Content="Japanese Yen (JPY)"/>
         </ComboBox>
 
-        <ComboBox Height="26" Width="335" Margin="150,62,0,0" Name="comboToCurrency" 
+        <ComboBox Height="26" Width="335" Margin="150,65,0,0" Name="comboToCurrency" 
                   VerticalAlignment="Top" HorizontalAlignment="Left">
 
             <ComboBoxItem Name="comboToUSD">
@@ -51,17 +54,28 @@
             <ComboBoxItem Name="comboToJPY" Content="Japanese Yen (JPY)"/>
         </ComboBox>
 
-        <Button Margin="385,115,0,0" 
-                Name="btnConvert" Content="Convert" 
+        <ComboBox Height="26" Width="60" Margin="150,105,0,0" Name="comboInterbank" 
+                  VerticalAlignment="Top" HorizontalAlignment="Left">
+            
+            <ComboBoxItem Name="percent0" Content="0%"  IsSelected="True"/>
+            <ComboBoxItem Name="percent1" Content="-1%"/>
+            <ComboBoxItem Name="percent2" Content="-2%"/>
+            <ComboBoxItem Name="percent3" Content="-3%"/>
+            <ComboBoxItem Name="percent4" Content="-4%"/>
+            <ComboBoxItem Name="percent5" Content="-5%"/>
+        </ComboBox>
+
+            <Button Margin="385,160,0,0" Name="btnConvert" Content="Convert" 
                 Height="30" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnConvert_Click"/>
 
-        <TextBox Margin="150,115,0,0" Name="txtAmount" Height="30" Width="200"
+        <TextBox Margin="150,160,0,0" Name="txtAmount" Height="30" Width="200"
                  HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
-        <Border Width="470" Height="60" Margin="-18.4,140,0,0" BorderThickness="1" BorderBrush="Black"/>
+        <Border Width="470" Height="50" Margin="15,210,0,0" BorderThickness="1" BorderBrush="Black" 
+                HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
-        <Label Name="lbResult" HorizontalAlignment="Left" Margin="15,170,0,0" VerticalAlignment="Top" Height="30" Width="470"/>
-        <Label Name="lbDate" HorizontalAlignment="Left" Margin="15,200,0,0" VerticalAlignment="Top" Height="30" Width="470"/>
+        <Label Name="lbResult" HorizontalAlignment="Left" Margin="15,210,0,0" VerticalAlignment="Top" Height="25" Width="470"/>
+        <Label Name="lbDate" HorizontalAlignment="Left" Margin="15,235,0,0" VerticalAlignment="Top" Height="25" Width="470"/>
 
     </Grid>
 </Window>

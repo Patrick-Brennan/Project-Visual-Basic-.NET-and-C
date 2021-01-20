@@ -34,6 +34,31 @@ namespace CurrencyConverter
                 return;
             }
 
+            // Interbank.
+            if (percent0.IsSelected == true)
+            {
+            }
+            if (percent1.IsSelected == true)
+            {
+                currency = currency * 0.99;
+            }
+            if (percent2.IsSelected == true)
+            {
+                currency = currency * 0.98;
+            }
+            if (percent3.IsSelected == true)
+            {
+                currency = currency * 0.97;
+            }
+            if (percent4.IsSelected == true)
+            {
+                currency = currency * 0.96;
+            }
+            if (percent5.IsSelected == true)
+            {
+                currency = currency * 0.95;
+            }
+
             // From USD.
             if (comboFromUSD.IsSelected == true)
             {
