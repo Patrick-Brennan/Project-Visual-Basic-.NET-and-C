@@ -22,7 +22,12 @@
         <ComboBox Height="26" Width="335" Margin="150,25,0,0" Name="comboFromCurrency" 
                   VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1" Grid.ColumnSpan="3">
 
-            <ComboBoxItem Name="comboFromUSD" Content="US Dollars (USD)" IsSelected="True"/>
+            <ComboBoxItem Name="comboFromUSD" IsSelected="True">
+                <WrapPanel>
+                    <Image Width="35" Source="/images/US_Flag.png"/>
+                    <TextBlock Text="US Dollars (USD)" Margin="6,0,0,0"/>
+                </WrapPanel>
+            </ComboBoxItem>
             <ComboBoxItem Name="comboFromCAD" Content="Canadian Dollars (CAD)"/>
             <ComboBoxItem Name="comboFromEUR" Content="Euros (EUR)"/>
             <ComboBoxItem Name="comboFromINR" Content="Indian Rupees (INR)"/>
@@ -39,7 +44,12 @@
         <ComboBox Height="26" Width="335" Margin="150,62,0,0" Name="comboToCurrency" 
                   VerticalAlignment="Top" HorizontalAlignment="Left">
 
-            <ComboBoxItem Name="comboToUSD" Content="US Dollars (USD)"/>
+            <ComboBoxItem Name="comboToUSD">
+                <WrapPanel>
+                    <Image Width="35" Source="/images/US_Flag.png"/>
+                    <TextBlock Text="US Dollars (USD)" Margin="6,0,0,0"/>
+                </WrapPanel>
+            </ComboBoxItem>
             <ComboBoxItem Name="comboToCAD" Content="Canadian Dollars (CAD)"  IsSelected="True"/>
             <ComboBoxItem Name="comboToEUR" Content="Euros (EUR)"/>
             <ComboBoxItem Name="comboToINR" Content="Indian Rupees (INR)"/>
