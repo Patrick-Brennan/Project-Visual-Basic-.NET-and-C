@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nathaniel.kwok\\source\\repos\\Project-Visual-Basic-.NET-and-C\\Currency-Converter\\Currency-Converter\\Currency-Converter.csproj": {}
+    "C:\\Users\\nathaniel.kwok\\Source\\Repos\\Project-Visual-Basic-.NET-and-C\\Currency-Converter\\Currency-Converter\\Currency-Converter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nathaniel.kwok\\source\\repos\\Project-Visual-Basic-.NET-and-C\\Currency-Converter\\Currency-Converter\\Currency-Converter.csproj": {
+    "C:\\Users\\nathaniel.kwok\\Source\\Repos\\Project-Visual-Basic-.NET-and-C\\Currency-Converter\\Currency-Converter\\Currency-Converter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nathaniel.kwok\\source\\repos\\Project-Visual-Basic-.NET-and-C\\Currency-Converter\\Currency-Converter\\Currency-Converter.csproj",
+        "projectUniqueName": "C:\\Users\\nathaniel.kwok\\Source\\Repos\\Project-Visual-Basic-.NET-and-C\\Currency-Converter\\Currency-Converter\\Currency-Converter.csproj",
         "projectName": "Currency-Converter",
-        "projectPath": "C:\\Users\\nathaniel.kwok\\source\\repos\\Project-Visual-Basic-.NET-and-C\\Currency-Converter\\Currency-Converter\\Currency-Converter.csproj",
+        "projectPath": "C:\\Users\\nathaniel.kwok\\Source\\Repos\\Project-Visual-Basic-.NET-and-C\\Currency-Converter\\Currency-Converter\\Currency-Converter.csproj",
         "packagesPath": "C:\\Users\\nathaniel.kwok\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nathaniel.kwok\\source\\repos\\Project-Visual-Basic-.NET-and-C\\Currency-Converter\\Currency-Converter\\obj\\",
+        "outputPath": "C:\\Users\\nathaniel.kwok\\Source\\Repos\\Project-Visual-Basic-.NET-and-C\\Currency-Converter\\Currency-Converter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nathaniel.kwok\\AppData\\Roaming\\NuGet\\NuGet.Config",
