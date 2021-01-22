@@ -1,0 +1,24 @@
+2021/01/21 Nathaniel
+1. Done since last Scrum
+- Added in icon and flags for all currencies
+- touch up on border, for Textbox and ComboBox
+2. To do until next Scrum
+- create database mockup
+- 
+
+3. Need Assistance/ Figure Out
+- research for database
+- figure out what to add into database
+
+2021/01/20 Nathaniel
+1. Done since last scrum
+- insert comboboxItem for each currency
+- added cryptocurrencies
+
+2. To do until next Scrum
+- draft database mockup
+- additional modifications to borders, Textboxes, and ComboBoxes if required
+- fix bug for result showing "ComboItem" instead of the currency selected
+
+3. Need Assistance/ Figure Out
+-  Code for conversion of units
