@@ -1,0 +1,25 @@
+2021/01/21 Nathaniel
+1. Done since last Scrum
+- Added in icon and flags for all currencies
+- touch up on border, for Textbox and ComboBox
+
+2. To do until next Scrum
+- create database mockup
+
+3. Need Assistance/ Figure Out
+- research for database
+- figure out what to add into database
+
+
+Patrick
+1. What did I do Yesterday? 
+- Found out that the project is due a whole week later than expected. Added Nathaniel’s code to 
+- my code, edited them to fit together, tested, it works. Requested merge onto the master branch. 
+- Created a backup for that and for my branch just in case.
+
+2. What will I do Today?
+- Start the daily scrums. Read presentations.txt, plan out what needs to be done. Maybe get the
+- online database going. Not a whole lot in mind, since most of the project is pretty much done.
+
+3. Where do I need assistance? What do I need to figure out? 
+- Not much really, just waiting on that merge. I made a request to pull my branch to the master. 

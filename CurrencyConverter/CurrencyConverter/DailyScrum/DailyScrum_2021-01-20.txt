@@ -1,15 +1,3 @@
-2021/01/21 Nathaniel
-1. Done since last Scrum
-- Added in icon and flags for all currencies
-- touch up on border, for Textbox and ComboBox
-2. To do until next Scrum
-- create database mockup
-- 
-
-3. Need Assistance/ Figure Out
-- research for database
-- figure out what to add into database
-
 2021/01/20 Nathaniel
 1. Done since last scrum
 - insert comboboxItem for each currency

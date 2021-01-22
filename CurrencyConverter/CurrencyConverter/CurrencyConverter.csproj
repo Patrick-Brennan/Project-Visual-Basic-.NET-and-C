@@ -129,5 +129,14 @@
   <ItemGroup>
     <Resource Include="images\ETH.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DailyScrum\DailyScrum_2021-01-20.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DailyScrum\DailyScrum_2021-01-21.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DailyScrum\DailyScrum_2021-01-22.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

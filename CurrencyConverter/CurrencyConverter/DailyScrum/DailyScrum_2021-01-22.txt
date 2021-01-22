@@ -1,0 +1,12 @@
+﻿2021/01/22 Patrick
+1. What did I do Yesterday? 
+- Started daily scrums. Merged my branch to the master, fixed conflicts. 
+
+2. What will I do Today?
+- Ask the teacher if I should create a scrum or document of my work before starting the daily
+- scrums. Maybe check on my partner later in the day. If my partner has database covered, I will
+- have to get connected to that database via azure, after that I can probably start working on the
+- PowerPoint presentation. I’m thinking of working on it in teams so we can both add to it.
+
+3. Where do I need assistance? What do I need to figure out? 
+- No real problems here. Just thinking of what I want to do next. 
