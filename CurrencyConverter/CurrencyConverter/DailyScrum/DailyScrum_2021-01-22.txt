@@ -10,3 +10,16 @@
 
 3. Where do I need assistance? What do I need to figure out? 
 - No real problems here. Just thinking of what I want to do next. 
+
+
+Nathaniel
+1. 1. What did I do Yesterday? 
+- create database format/layout
+- dscuss contents of database
+
+2. What will I do Today?
+- implement database into application
+- modify country flags
+
+3. Where do I need assistance? What do I need to figure out? 
+- n/a
