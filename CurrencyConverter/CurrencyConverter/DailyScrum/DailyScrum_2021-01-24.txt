@@ -1,0 +1,9 @@
+﻿2021/01/22 Patrick
+1. What did I do Yesterday? 
+- Day off.
+
+2. What will I do Today?
+- Study for exam coming up tomorrow. Play with unit testing, try adding it to the project.
+
+3. Where do I need assistance? What do I need to figure out? 
+- No problems.
