@@ -144,5 +144,11 @@
   <ItemGroup>
     <Resource Include="DailyScrum\DailyScrum_2021-01-24.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DailyScrum\DailyScrum_2021-01-25.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DailyScrum\DailyScrum_2021-01-26.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
