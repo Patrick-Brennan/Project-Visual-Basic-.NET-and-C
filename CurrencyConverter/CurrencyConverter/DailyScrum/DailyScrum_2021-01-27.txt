@@ -1,0 +1,9 @@
+﻿2021/01/27 Patrick
+1. What did I do Yesterday? 
+- Started PowerPoint, writing down what to say in the presentation mostly. Did some dabbling with database.
+
+2. What will I do Today?
+- I plan to go ham today! Get database rolling and also the PowerPoint afterward.
+
+3. Where do I need assistance? What do I need to figure out? 
+- The whole database situation. I may have an idea though...
