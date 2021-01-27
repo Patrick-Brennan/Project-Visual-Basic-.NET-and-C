@@ -7,3 +7,14 @@
 
 3. Where do I need assistance? What do I need to figure out? 
 - No problems.
+
+2021/01/24 Nathaniel
+1. What did I do Yesterday? 
+- Day off.
+
+2. What will I do Today?
+- study database structures
+- try out diffrent structures
+
+3. Where do I need assistance? What do I need to figure out? 
+- n/a

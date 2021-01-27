@@ -7,3 +7,13 @@
 
 3. Where do I need assistance? What do I need to figure out? 
 - No problems.
+
+2021/01/23 Nathaniel
+1. What did I do Yesterday? 
+- create separate branch from master branch
+
+2. What will I do Today?
+- Taking the day off.
+
+3. Where do I need assistance? What do I need to figure out? 
+- n/a

@@ -7,3 +7,14 @@
 
 3. Where do I need assistance? What do I need to figure out? 
 - My PC was slow during exam, rip. Time for an upgrade.
+
+2021/01/26 Patrick
+1. What did I do Yesterday? 
+- exam
+
+2. What will I do Today?
+- implement database structure into the project
+- try to create a database within same project, or a separate file
+
+3. Where do I need assistance? What do I need to figure out? 
+- need help on the database, unable to implement it
