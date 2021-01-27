@@ -21,3 +21,4 @@ namespace CurrencyConverter
         public string lbDate { get; set; }
     }
 }
+ 

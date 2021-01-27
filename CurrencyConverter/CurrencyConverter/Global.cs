@@ -11,3 +11,4 @@ namespace CurrencyConverter
         public static CurrencyConverterDbContext ctx;
     }
 }
+ 

@@ -17,3 +17,4 @@ namespace CurrencyConverter
         public virtual DbSet<Conversion> Conversion { get; set; }
     }
 }
+ 
