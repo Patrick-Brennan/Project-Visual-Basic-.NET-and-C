@@ -120,9 +120,6 @@
     <Resource Include="images\GBR_Flag.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="images\JPY_Flag.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="images\CHF_Flag.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -133,6 +130,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\ETH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\JPY_Flag.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
