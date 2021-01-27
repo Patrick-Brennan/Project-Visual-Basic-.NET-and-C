@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.Entity;
 
 namespace CurrencyConverter
 {
@@ -954,5 +955,18 @@ namespace CurrencyConverter
 
             lbDate.Content = string.Format("{0}", DateTime.Now);
         }
+    }
+
+    public class MainViewDB : DbContext
+    {
+        public MainViewDB()
+        {
+            CurrencyDetails = new CurrencyDetails();
+
+        }
+
+        public DbSet<FromCurrency> FromCurency { get; set; 
+        public DBSet<ToCurrency> ToCurrency { get; set; }
+        public DBSet<Result> Result { get; set; }
     }
 }
