@@ -8,7 +8,7 @@ namespace CurrencyConverter
 {
     class Global
     {
-        public static CurrencyConverterDbContext ctx;
+        public static CurrencyConverterDbContext context = new CurrencyConverterDbContext();
     }
 }
  
