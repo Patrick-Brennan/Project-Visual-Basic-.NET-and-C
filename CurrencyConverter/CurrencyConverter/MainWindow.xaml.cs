@@ -116,26 +116,24 @@ namespace CurrencyConverter
 
                 if (comboToCHF.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}CHF in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.89, ToCurrency);
+                    lbResult.Content = string.Format("{0}$ in US Dollars (USD) has been converted to {1:n2}CHF in Swiss Francs (CHF)",
+                        txtAmount.Text, currency * 0.89);
                 }
                 if (comboToCUP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}₱ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 24.00, ToCurrency);
+                    lbResult.Content = string.Format("{0}$ in US Dollars (USD) has been converted to {1:n2}₱ in Cuban Pesos (CUP)",
+                        txtAmount.Text, currency * 24.00);
                 }
                 if (comboToBTCUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}₿ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.000027, ToCurrency);
+                    lbResult.Content = string.Format("{0}$ in US Dollars (USD) has been converted to {1:n2}₿ in Bitcoin (BTC)",
+                        txtAmount.Text, currency * 0.000027);
                 }
                 if (comboToETHUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}Ξ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.00079, ToCurrency);
+                    lbResult.Content = string.Format("{0}$ in US Dollars (USD) has been converted to {1:n2}Ξ in Ethereum (ETH)",
+                        txtAmount.Text, currency * 0.00079);
                 }
-
-
             }
 
             // From CAD
@@ -194,23 +192,23 @@ namespace CurrencyConverter
 
                 if (comboToCHF.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}CHF in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.7, ToCurrency);
+                    lbResult.Content = string.Format("{0}$ in Canadian Dollars (CAD) has been converted to {1:n2}CHF in Swiss Francs (CHF)",
+                        txtAmount.Text, currency * 0.7);
                 }
                 if (comboToCUP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}₱ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 18.85, ToCurrency);
+                    lbResult.Content = string.Format("{0}$ in Canadian Dollars (CAD) has been converted to {1:n2}₱ in Cuban Pesos (CUP)",
+                        txtAmount.Text, currency * 18.85);
                 }
                 if (comboToBTCUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}₿ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.000021, ToCurrency);
+                    lbResult.Content = string.Format("{0}$ in Canadian Dollars (CAD) has been converted to {1:n2}₿ in Bitcoin (BTC)",
+                        txtAmount.Text, currency * 0.000021);
                 }
                 if (comboToETHUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}$ in {1} has been converted to {2:n2}Ξ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.00062, ToCurrency);
+                    lbResult.Content = string.Format("{0}$ in Canadian Dollars (CAD) has been converted to {1:n2}Ξ in Ethereum (ETH)",
+                        txtAmount.Text, currency * 0.00062);
                 }
             }
 
@@ -267,26 +265,25 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}€ in Euros (EUR) has been converted to {1:n2}Ξ in Ethereum (ETH)",
                         txtAmount.Text, currency * 0.00096);
                 }
-
                 if (comboToCHF.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}CHF in {3}",
-                        txtAmount.Text, FromCurrency, currency * 1.08, ToCurrency);
+                    lbResult.Content = string.Format("{0}€ in Euros (EUR) has been converted to {1:n2}CHF in Swiss Francs (CHF)",
+                        txtAmount.Text, currency * 1.08);
                 }
                 if (comboToCUP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}₱ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 29.01, ToCurrency);
+                    lbResult.Content = string.Format("{0}€ in Euros (EUR) has been converted to {1:n2}₱ in Cuban Pesos (CUP)",
+                        txtAmount.Text, currency * 29.01);
                 }
                 if (comboToBTCUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}₿ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.000033, ToCurrency);
+                    lbResult.Content = string.Format("{0}€ in Euros (EUR) has been converted to {1:n2}₿ in Bitcoin (BTC)",
+                        txtAmount.Text, currency * 0.000033);
                 }
                 if (comboToETHUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}€ in {1} has been converted to {2:n2}Ξ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.00096, ToCurrency);
+                    lbResult.Content = string.Format("{0}€ in Euros (EUR) has been converted to {1:n2}Ξ in Ethereum (ETH)",
+                        txtAmount.Text, currency * 0.00096);
                 }
             }
 
@@ -343,26 +340,25 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}₹ in Indian Rupees (INR) has been converted to {1:n2}Ξ in Ethereum (ETH)",
                         txtAmount.Text, currency * 0.000011);
                 }
-
                 if (comboToCHF.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}CHF in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.012, ToCurrency);
+                    lbResult.Content = string.Format("{0}₹ in Indian Rupees (INR) has been converted to {1:n2}CHF in Swiss Francs (CHF)",
+                        txtAmount.Text, currency * 0.012);
                 }
                 if (comboToCUP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}₱ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.33, ToCurrency);
+                    lbResult.Content = string.Format("{0}₹ in Indian Rupees (INR) has been converted to {1:n2}₱ in Cuban Pesos (CUP)",
+                        txtAmount.Text, currency * 0.33);
                 }
                 if (comboToBTCUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}₿ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.0000011, ToCurrency);
+                    lbResult.Content = string.Format("{0}₹ in Indian Rupees (INR) has been converted to {1:n2}₿ in Bitcoin (BTC)",
+                        txtAmount.Text, currency * 0.0000011);
                 }
                 if (comboToETHUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₹ in {1} has been converted to {2:n2}Ξ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.000011, ToCurrency);
+                    lbResult.Content = string.Format("{0}₹ in Indian Rupees (INR) has been converted to {1:n2}Ξ in Ethereum (ETH)",
+                        txtAmount.Text, currency * 0.000011);
                 }
             }
 
@@ -419,26 +415,25 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}£ in British Pounds (GBP) has been converted to {1:n2}Ξ in Ethereum (ETH)",
                         txtAmount.Text, currency * 0.0011);
                 }
-
                 if (comboToCHF.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}CHF in {3}",
-                        txtAmount.Text, FromCurrency, currency * 1.21, ToCurrency);
+                    lbResult.Content = string.Format("{0}£ in British Pounds (GBP) has been converted to {1:n2}CHF in Swiss Francs (CHF)",
+                        txtAmount.Text, currency * 1.21);
                 }
                 if (comboToCUP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}₱ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 32.63, ToCurrency);
+                    lbResult.Content = string.Format("{0}£ in British Pounds (GBP) has been converted to {1:n2}₱ in {Cuban Pesos (CUP)",
+                        txtAmount.Text, currency * 32.63);
                 }
                 if (comboToBTCUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}₿ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.000037, ToCurrency);
+                    lbResult.Content = string.Format("{0}£ in British Pounds (GBP) has been converted to {1:n2}₿ in Bitcoin (BTC)",
+                        txtAmount.Text, currency * 0.000037);
                 }
                 if (comboToETHUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}£ in {1} has been converted to {2:n2}Ξ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.0011, ToCurrency);
+                    lbResult.Content = string.Format("{0}£ in British Pounds (GBP) has been converted to {1:n2}Ξ in Ethereum (ETH)",
+                        txtAmount.Text, currency * 0.0011);
                 }
             }
 
@@ -715,83 +710,80 @@ namespace CurrencyConverter
                     lbResult.Content = string.Format("{0}Ξ in Ethereum (ETH) has been converted to {1:n2}Ξ in Ethereum (ETH)",
                         txtAmount.Text, currency);
                 }
-
                 if (comboToCHF.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}CHF in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.0086, ToCurrency);
+                    lbResult.Content = string.Format("{0}¥ in Japanese Yen (JPY) has been converted to {1:n2}CHF in Swiss Francs (CHF)",
+                        txtAmount.Text, currency * 0.0086);
                 }
                 if (comboToCUP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}₱ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.23, ToCurrency);
+                    lbResult.Content = string.Format("{0}¥ in Japanese Yen (JPY) has been converted to {1:n2}₱ in Cuban Pesos (CUP)",
+                        txtAmount.Text, currency * 0.23);
                 }
                 if (comboToBTCUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}₿ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.0000010, ToCurrency);
+                    lbResult.Content = string.Format("{0}¥ in Japanese Yen (JPY) has been converted to {1:n2}₿ in Bitcoin (BTC)",
+                        txtAmount.Text, currency * 0.0000010);
                 }
                 if (comboToETHUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}¥ in {1} has been converted to {2:n2}Ξ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.0000076, ToCurrency);
+                    lbResult.Content = string.Format("{0}¥ in Japanese Yen (JPY) has been converted to {1:n2}Ξ in Ethereum (ETH)",
+                        txtAmount.Text, currency * 0.0000076);
                 }
             }
-
 
             //CHF
             if (comboFromCHF.IsSelected == true)
             {
                 if (comboToUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}$ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 1.12, ToCurrency);
+                    lbResult.Content = string.Format("{0}CHF in Swiss Francs (CHF) has been converted to {1:n2}$ in US Dollars (USD)",
+                        txtAmount.Text, currency * 1.12);
                 }
                 if (comboToCAD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}$ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 1.43, ToCurrency);
+                    lbResult.Content = string.Format("{0}CHF in Swiss Francs (CHF) has been converted to {1:n2}$ in Canadian Dollars (CAD)",
+                        txtAmount.Text, currency * 1.43);
                 }
                 if (comboToEUR.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}€ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.93, ToCurrency);
+                    lbResult.Content = string.Format("{0}CHF in Swiss Francs (CHF) has been converted to {1:n2}€ in Euros (EUR)",
+                        txtAmount.Text, currency * 0.93);
                 }
                 if (comboToINR.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}₹ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 82.16, ToCurrency);
+                    lbResult.Content = string.Format("{0}CHF in Swiss Francs (CHF) has been converted to {1:n2}₹ in Indian Rupees (INR)",
+                        txtAmount.Text, currency * 82.16);
                 }
                 if (comboToGBP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}£ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.83, ToCurrency);
+                    lbResult.Content = string.Format("{0}CHF in Swiss Francs (CHF) has been converted to {1:n2}£ in British Pounds (GBP)",
+                        txtAmount.Text, currency * 0.83);
                 }
                 if (comboToJPY.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}¥ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 116.50, ToCurrency);
+                    lbResult.Content = string.Format("{0}CHF in Swiss Francs (CHF) has been converted to {1:n2}¥ in Japanese Yen (JPY)",
+                        txtAmount.Text, currency * 116.50);
                 }
-
                 if (comboToCHF.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}CHF in {3}",
-                        txtAmount.Text, FromCurrency, currency, ToCurrency);
+                    lbResult.Content = string.Format("{0}CHF in Swiss Francs (CHF) has been converted to {1:n2}CHF in Swiss Francs (CHF)",
+                        txtAmount.Text, currency);
                 }
                 if (comboToCUP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}₱ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 26.95, ToCurrency);
+                    lbResult.Content = string.Format("{0}CHF in Swiss Francs (CHF) has been converted to {1:n2}₱ in Cuban Pesos (CUP)",
+                        txtAmount.Text, currency * 26.95);
                 }
                 if (comboToBTCUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}₿ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.000031, ToCurrency);
+                    lbResult.Content = string.Format("{0}CHF in Swiss Francs (CHF) has been converted to {1:n2}₿ in Bitcoin (BTC)",
+                        txtAmount.Text, currency * 0.000031);
                 }
                 if (comboToETHUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}CHF in {1} has been converted to {2:n2}Ξ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.00088, ToCurrency);
+                    lbResult.Content = string.Format("{0}CHF in Swiss Francs (CHF) has been converted to {1:n2}Ξ in Ethereum (ETH)",
+                        txtAmount.Text, currency * 0.00088);
                 }
             }
 
@@ -800,54 +792,53 @@ namespace CurrencyConverter
             {
                 if (comboToUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}$ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.042, ToCurrency);
+                    lbResult.Content = string.Format("{0}₱ in Cuban Pesos (CUP) has been converted to {1:n2}$ in US Dollars (USD)",
+                        txtAmount.Text, currency * 0.042);
                 }
                 if (comboToCAD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}$ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.053, ToCurrency);
+                    lbResult.Content = string.Format("{0}₱ in Cuban Pesos (CUP) has been converted to {1:n2}$ in Canadian Dollars (CAD)",
+                        txtAmount.Text, currency * 0.053);
                 }
                 if (comboToEUR.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}€ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.034, ToCurrency);
+                    lbResult.Content = string.Format("{0}₱ in Cuban Pesos (CUP) has been converted to {1:n2}€ in Euros (EUR)",
+                        txtAmount.Text, currency * 0.034);
                 }
                 if (comboToINR.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}₹ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 3.05, ToCurrency);
+                    lbResult.Content = string.Format("{0}₱ in Cuban Pesos (CUP) has been converted to {1:n2}₹ in Indian Rupees (INR)",
+                        txtAmount.Text, currency * 3.05);
                 }
                 if (comboToGBP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}£ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.031, ToCurrency);
+                    lbResult.Content = string.Format("{0}₱ in Cuban Pesos (CUP) has been converted to {1:n2}£ in British Pounds (GBP)",
+                        txtAmount.Text, currency * 0.031);
                 }
                 if (comboToJPY.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}¥ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 4.32, ToCurrency);
+                    lbResult.Content = string.Format("{0}₱ in Cuban Pesos (CUP) has been converted to {1:n2}¥ in Japanese Yen (JPY)",
+                        txtAmount.Text, currency * 4.32);
                 }
-
                 if (comboToCHF.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}CHF in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.037, ToCurrency);
+                    lbResult.Content = string.Format("{0}₱ in Cuban Pesos (CUP) has been converted to {1:n2}CHF in Swiss Francs (CHF)",
+                        txtAmount.Text, currency * 0.037);
                 }
                 if (comboToCUP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}₱ in {3}",
-                        txtAmount.Text, FromCurrency, currency, ToCurrency);
+                    lbResult.Content = string.Format("{0}₱ in Cuban Pesos (CUP) has been converted to {1:n2}₱ in Cuban Pesos (CUP)",
+                        txtAmount.Text, currency);
                 }
                 if (comboToBTCUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}₿ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.0000011, ToCurrency);
+                    lbResult.Content = string.Format("{0}₱ in Cuban Pesos (CUP) has been converted to {1:n2}₿ in Bitcoin (BTC)",
+                        txtAmount.Text, currency * 0.0000011);
                 }
                 if (comboToETHUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₱ in {1} has been converted to {2:n2}Ξ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.000032, ToCurrency);
+                    lbResult.Content = string.Format("{0}₱ in Cuban Pesos (CUP) has been converted to {1:n2}Ξ in Ethereum (ETH)",
+                        txtAmount.Text, currency * 0.000032);
                 }
             }
 
@@ -856,54 +847,53 @@ namespace CurrencyConverter
             {
                 if (comboToUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}$ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 36815.70, ToCurrency);
+                    lbResult.Content = string.Format("{0}₿ in Bitcoin (BTC) has been converted to {1:n2}$ in US Dollars (USD)",
+                        txtAmount.Text, currency * 36815.70);
                 }
                 if (comboToCAD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}$ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 46867.67, ToCurrency);
+                    lbResult.Content = string.Format("{0}₿ in Bitcoin (BTC) has been converted to {1:n2}$ in Canadian Dollars (CAD)",
+                        txtAmount.Text, currency * 46867.67);
                 }
                 if (comboToEUR.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}€ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 30443.82, ToCurrency);
+                    lbResult.Content = string.Format("{0}₿ in Bitcoin (BTC) has been converted to {1:n2}€ in Euros (EUR)",
+                        txtAmount.Text, currency * 30443.82);
                 }
                 if (comboToINR.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}₹ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 2694725.16, ToCurrency);
+                    lbResult.Content = string.Format("{0}₿ in Bitcoin (BTC) has been converted to {1:n2}₹ in Indian Rupees (INR)",
+                        txtAmount.Text, currency * 2694725.16);
                 }
                 if (comboToGBP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}£ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 27224.34, ToCurrency);
+                    lbResult.Content = string.Format("{0}₿ in Bitcoin (BTC) has been converted to {1:n2}£ in British Pounds (GBP)",
+                        txtAmount.Text, currency * 27224.34);
                 }
                 if (comboToJPY.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}¥ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 3844752.60, ToCurrency);
+                    lbResult.Content = string.Format("{0}₿ in Bitcoin (BTC) has been converted to {1:n2}¥ in Japanese Yen (JPY)",
+                        txtAmount.Text, currency * 3844752.60);
                 }
-
                 if (comboToCHF.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}CHF in {3}",
-                        txtAmount.Text, FromCurrency, currency * 32998.92, ToCurrency);
+                    lbResult.Content = string.Format("{0}₿ in Bitcoin (BTC) has been converted to {1:n2}CHF in Swiss Francs (CHF)",
+                        txtAmount.Text, currency * 32998.92);
                 }
                 if (comboToCUP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}₱ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 889318.56, ToCurrency);
+                    lbResult.Content = string.Format("{0}₿ in Bitcoin (BTC) has been converted to {1:n2}₱ in Cuban Pesos (CUP)",
+                        txtAmount.Text, currency * 889318.56);
                 }
                 if (comboToBTCUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}₿ in {3}",
-                        txtAmount.Text, FromCurrency, currency, ToCurrency);
+                    lbResult.Content = string.Format("{0}₿ in Bitcoin (BTC) has been converted to {1:n2}₿ in Bitcoin (BTC)",
+                        txtAmount.Text, currency);
                 }
                 if (comboToETHUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}₿ in {1} has been converted to {2:n2}Ξ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 28.37, ToCurrency);
+                    lbResult.Content = string.Format("{0}₿ in Bitcoin (BTC) has been converted to {1:n2}Ξ in Ethereum (ETH)",
+                        txtAmount.Text, currency * 28.37);
                 }
             }
 
@@ -912,54 +902,53 @@ namespace CurrencyConverter
             {
                 if (comboToUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}$ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 1402.83, ToCurrency);
+                    lbResult.Content = string.Format("{0}Ξ in Ethereum (ETH) has been converted to {1:n2}$ in US Dollars (USD)",
+                        txtAmount.Text, currency * 1402.83);
                 }
                 if (comboToCAD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}$ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 1788.88, ToCurrency);
+                    lbResult.Content = string.Format("{0}Ξ in Ethereum (ETH) has been converted to {1:n2}$ in Canadian Dollars (CAD)",
+                        txtAmount.Text, currency * 1788.88);
                 }
                 if (comboToEUR.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}€ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 1157.69, ToCurrency);
+                    lbResult.Content = string.Format("{0}Ξ in Ethereum (ETH) has been converted to {1:n2}€ in Euros (EUR)",
+                        txtAmount.Text, currency * 1157.69);
                 }
                 if (comboToINR.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}₹ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 102752.54, ToCurrency);
+                    lbResult.Content = string.Format("{0}Ξ in Ethereum (ETH) has been converted to {1:n2}₹ in Indian Rupees (INR)",
+                        txtAmount.Text, currency * 102752.54);
                 }
                 if (comboToGBP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}£ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 1031.20, ToCurrency);
+                    lbResult.Content = string.Format("{0}Ξ in Ethereum (ETH) has been converted to {1:n2}£ in British Pounds (GBP)",
+                        txtAmount.Text, currency * 1031.20);
                 }
                 if (comboToJPY.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}¥ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 146014.59, ToCurrency);
+                    lbResult.Content = string.Format("{0}Ξ in Ethereum (ETH) has been converted to {1:n2}¥ in Japanese Yen (JPY)",
+                        txtAmount.Text, currency * 146014.59);
                 }
-
                 if (comboToCHF.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}CHF in {3}",
-                        txtAmount.Text, FromCurrency, currency * 1246.96, ToCurrency);
+                    lbResult.Content = string.Format("{0}Ξ in Ethereum (ETH) has been converted to {1:n2}CHF in Swiss Francs (CHF)",
+                        txtAmount.Text, currency * 1246.96);
                 }
                 if (comboToCUP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}₱ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 33709.68, ToCurrency);
+                    lbResult.Content = string.Format("{0}Ξ in Ethereum (ETH) has been converted to {1:n2}₱ in Cuban Pesos (CUP)",
+                        txtAmount.Text, currency * 33709.68);
                 }
                 if (comboToBTCUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}₿ in {3}",
-                        txtAmount.Text, FromCurrency, currency * 0.038, ToCurrency);
+                    lbResult.Content = string.Format("{0}Ξ in {Ethereum (ETH) has been converted to {1:n2}₿ in Bitcoin (BTC)",
+                        txtAmount.Text, currency * 0.038);
                 }
                 if (comboToETHUSD.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}Ξ in {1} has been converted to {2:n2}Ξ in {3}",
-                        txtAmount.Text, FromCurrency, currency, ToCurrency);
+                    lbResult.Content = string.Format("{0}Ξ in Ethereum (ETH) has been converted to {1:n2}Ξ in Ethereum (ETH)",
+                        txtAmount.Text, currency);
                 }
             }
 
