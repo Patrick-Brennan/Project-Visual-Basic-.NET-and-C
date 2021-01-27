@@ -161,6 +161,7 @@
             <ComboBoxItem Name="percent3" Content="-3%"/>
             <ComboBoxItem Name="percent4" Content="-4%"/>
             <ComboBoxItem Name="percent5" Content="-5%"/>
+
         </ComboBox>
 
         <Button Margin="385,160,0,0" Name="btnConvert" Content="Convert" 
