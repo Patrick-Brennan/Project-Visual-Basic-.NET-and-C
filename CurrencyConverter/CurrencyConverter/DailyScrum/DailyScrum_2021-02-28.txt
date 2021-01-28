@@ -1,0 +1,13 @@
+﻿2021/01/28 Patrick
+1. What did I do Yesterday? 
+- Planned out what we're going to do on a two day notice. Created a database for the project. Attempted adding in a database to the project.
+-  Attempted changing the result label into a list view. Changed the cs file of the main window around a bit to fit the database.
+- Made a backup branch for the database work. Attempted adding in StreamWriter when the database wasn't working for me.
+- Changed result name so the list view can show the output. Thought about adding a delete button to the window, but didn't get there.
+- Attempted IOException for StreamWriter. Changed the cs file of the main window around a bit to fit StreamWriter.
+
+2. What will I do Today?
+- Just work on the presentation, no time for code other than a few fixes I might do. Also practice the presentation.
+
+3. Where do I need assistance? What do I need to figure out? 
+- Teacher expecting major changes on short notice. Either check on us sooner or don't expect big changes.
