@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
-using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +14,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using CurrencyConverter.Domain;
 
 namespace CurrencyConverter
 {
@@ -22,30 +22,26 @@ namespace CurrencyConverter
     /// </summary>
     public partial class MainWindow : Window
     {
+        public string fileName = @"..\..convertdata.txt";
+        private List<Conversion> convertList = new List<Conversion>();
         public MainWindow()
         {
             InitializeComponent();
-            LoadData();
         }
 
-        private void LoadData()
+        private void lvConvert_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            txtAmount.Text = "";
-
-            List<Conversion> conversion = Global.context.Conversions.ToList<Conversion>();
-            lvConvert.ItemsSource = conversion;
-            lvConvert.Items.Refresh();
+            var selectedItem = lvConvert.SelectedItem;
+            if (selectedItem is Conversion)
+            {
+                Conversion conversion = (Conversion)lvConvert.SelectedItem;
+            }
         }
+
+
 
         private void btnConvert_Click(object sender, RoutedEventArgs e)
         {
-            //Validate the data
-            if (!ValidateData())
-            {
-                MessageBox.Show("the fields are not set properly");
-                return;
-            }
-
             double currency;
             if (!double.TryParse(txtAmount.Text, out currency))
             {
@@ -730,27 +726,24 @@ namespace CurrencyConverter
 
             string timestamp = string.Format("{0}", DateTime.Now);
 
-            Conversion conversion = new Conversion { Results = results, Timestamp = timestamp };
-            Global.context.Conversions.Add(conversion);
-            Global.context.SaveChanges();
-
-            LoadData();
+            Conversion conversion = new Conversion(results, timestamp);
+            convertList.Add(conversion);
         }
 
-        public bool ValidateData()
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            return true;
+            SaveFile();
         }
 
-        private void lvConvert_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void SaveFile()
         {
-            if (lvConvert.SelectedIndex == -1)
+            using (StreamWriter writer = new StreamWriter(fileName))
             {
-                return;
+                foreach (Conversion conversion in convertList)
+                {
+                    writer.WriteLine(conversion.ToDataString());
+                }
             }
-            Conversion conversion = (Conversion)lvConvert.SelectedItem;
-
-
         }
     }
 }
