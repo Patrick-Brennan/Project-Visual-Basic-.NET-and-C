@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CurrencyConverter"
         mc:Ignorable="d"
-        Title="Currency Converter" Height="310" Width="515" WindowStartupLocation="CenterScreen">
+        Title="Currency Converter" Height="550" Width="515" WindowStartupLocation="CenterScreen">
 
     <Grid Margin="0,0,0,0">
         <Label Height="26" HorizontalAlignment="Left" Margin="15,25,0,0" 
@@ -176,5 +176,15 @@
         <Label Name="lbResult" HorizontalAlignment="Left" Margin="15,210,0,0" VerticalAlignment="Top" Height="25" Width="470"/>
         <Label Name="lbDate" HorizontalAlignment="Left" Margin="15,235,0,0" VerticalAlignment="Top" Height="25" Width="470"/>
 
+        <ListView SelectionChanged="lvConvert_SelectionChanged" Name="lvConvert" Margin="15,210,0,0" 
+                  Width="470" Height="300" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Id" Width="25" DisplayMemberBinding="{Binding Id}" />
+                    <GridViewColumn Header="Results" Width="325" DisplayMemberBinding="{Binding Results}" />
+                    <GridViewColumn Header="Timestamp" Width="120" DisplayMemberBinding="{Binding Timestamp}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Window>

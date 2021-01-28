@@ -10,7 +10,11 @@ namespace CurrencyConverter
 {
     class CurrencyConverterDbContext : DbContext
     {
-        public virtual DbSet<Conversion> Conversion { get; set; }
+        public CurrencyConverterDbContext() : base("Conversions")
+        {
+
+        }
+        public virtual DbSet<Conversion> Conversions { get; set; }
     }
 }
  

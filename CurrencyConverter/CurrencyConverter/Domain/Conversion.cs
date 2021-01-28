@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,11 +14,11 @@ namespace CurrencyConverter.Domain
 
         [Required]
         [StringLength(200)]
-        public string lbResult { get; set; }
+        public string Results { get; set; }
 
         [Required]
         [StringLength(200)]
-        public string lbDate { get; set; }
+        public string Timestamp { get; set; }
     }
 }
  
