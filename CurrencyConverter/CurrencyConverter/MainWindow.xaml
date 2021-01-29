@@ -57,7 +57,7 @@
             </ComboBoxItem>
             <ComboBoxItem Name="comboFromJPY">
                 <WrapPanel>
-                    <Image Width="35" Source="/images/JPY_Flag.png"/>
+                    <Image Width="35" Source="/images/JPY_Flag.jpg"/>
                     <TextBlock Text="Japanese Yen (JPY)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>
@@ -122,7 +122,7 @@
             </ComboBoxItem>
             <ComboBoxItem Name="comboToJPY">
                 <WrapPanel>
-                    <Image Width="35" Source="/images/JPY_Flag.png"/>
+                    <Image Width="35" Source="/images/JPY_Flag.jpg"/>
                     <TextBlock Text="Japanese Yen (JPY)" Margin="6,0,0,0"/>
                 </WrapPanel>
             </ComboBoxItem>

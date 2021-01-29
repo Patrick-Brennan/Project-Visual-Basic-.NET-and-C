@@ -115,9 +115,6 @@
     <Resource Include="images\GBR_Flag.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="images\JPY_Flag.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="images\CHF_Flag.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -155,6 +152,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="DailyScrum\DailyScrum_2021-02-28.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\JPY_Flag.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
