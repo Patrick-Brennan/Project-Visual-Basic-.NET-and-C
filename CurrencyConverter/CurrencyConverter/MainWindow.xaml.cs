@@ -319,7 +319,7 @@ namespace CurrencyConverter
                 }
                 if (comboToCUP.IsSelected == true)
                 {
-                    lbResult.Content = string.Format("{0}£ in British Pounds (GBP) has been converted to {1:n2}₱ in {Cuban Pesos (CUP)",
+                    lbResult.Content = string.Format("{0}£ in British Pounds (GBP) has been converted to {1:n2}₱ in Cuban Pesos (CUP)",
                         txtAmount.Text, currency * 32.63);
                 }
                 if (comboToBTCUSD.IsSelected == true)
