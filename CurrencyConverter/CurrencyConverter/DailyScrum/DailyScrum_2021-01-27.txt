@@ -7,3 +7,15 @@
 
 3. Where do I need assistance? What do I need to figure out? 
 - The whole database situation. I may have an idea though...
+
+2021/01/27 Nathaniel
+1. What did I do Yesterday? 
+- Draft PowerPoint slides
+- begin writing lines for slides
+
+2. What will I do Today?
+- finishing touches on xaml and xaml.cs design
+- begin powerpoint
+
+3. Where do I need assistance? What do I need to figure out? 
+- require assistance for database, tried to work on it but to no avail
